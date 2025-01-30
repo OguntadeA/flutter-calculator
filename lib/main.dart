@@ -117,7 +117,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
         onPressed: () => _onButtonPressed(label),
         style: ElevatedButton.styleFrom(
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-          backgroundColor: (label == "C") ? Colors.red : Colors.blueGrey,
+          backgroundColor: (label == "C") ? Color.fromARGB(255, 244, 54, 187) : Colors.blueGrey,
         ),
         child: Text(
           label,
